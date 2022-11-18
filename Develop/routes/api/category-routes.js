@@ -71,7 +71,7 @@ router.put("/:id", (req, res) => {
     },
   }).then((data) => {
     //result="Record Updated";
-    res.status(200);
+    res.sendStatus(200);
   });
 });
 
@@ -83,7 +83,7 @@ router.delete("/:id", (req, res) => {
       id: req.params.id,
     },
   }).then((data) => {
-    res.status(200);
+    res.sendStatus(200);
   });
 });
 

@@ -48,7 +48,7 @@ router.get("/:id", (req, res) => {
 
 router.post("/", (req, res) => {
   Tag.create(req.body).then((data) => {
-    res.status(200);
+    res.sendStatus(200);
   });
 });
 
@@ -60,7 +60,7 @@ router.put("/:id", (req, res) => {
     },
   }).then((product) => {
     // find all associated tags from ProductTag
-    res.status(200);
+    res.sendStatus(200);
   });
 });
 
@@ -72,7 +72,7 @@ router.delete("/:id", (req, res) => {
       id: req.params.id,
     },
   }).then((data) => {
-    res.status(200);
+    res.sendStatus(200);
   });
 });
 

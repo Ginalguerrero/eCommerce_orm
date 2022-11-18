@@ -161,7 +161,7 @@ router.delete("/:id", (req, res) => {
       id: req.params.id,
     },
   }).then((data) => {
-    res.status(200);
+    res.sendStatus(200);
   });
 });
 
