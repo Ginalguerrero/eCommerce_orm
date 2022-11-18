@@ -58,7 +58,7 @@ router.get("/:id", (req, res) => {
 // create new category
 router.post("/", (req, res) => {
   Category.create(req.body).then((data) => {
-    res.status(200);
+    res.sendStatus(200);
   });
 });
 
