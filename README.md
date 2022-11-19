@@ -12,6 +12,8 @@ Node
 npm
 MySQL
 Sequelize
+![Screenshot 2022-11-18 4 34 54 PM](https://user-images.githubusercontent.com/112473624/202824724-6009725b-8f65-4e60-8f6a-ec8e028851ab.png)
+
 
 ## DEMO
 https://watch.screencastify.com/v/RSwlwsieanhBQTRFrpAK 
